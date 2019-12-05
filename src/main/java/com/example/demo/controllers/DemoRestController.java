@@ -23,7 +23,7 @@ public class DemoRestController {
             result = "Error getting hostname";
         }
         result += "\n";
-        String runner = "Started by: " + System.getProperty("application.starter");
+        String runner = "Started by: " + System.getProperty("application.maintainer");
         result += runner + "\n";
         return result;
     }
